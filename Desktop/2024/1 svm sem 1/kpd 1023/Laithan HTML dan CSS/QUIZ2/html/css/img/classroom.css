@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    margin-top: 170px;
+}
+.container {
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-color: white;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px black;
+}
+.container img {
+    position: absolute;
+    left: 0px;
+}
+.container h1 {
+    margin-top: 0px;
+    padding-bottom: -50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 50px;
+}
+marquee {
+    background-color: rgba(128, 128, 128, 0.196);
+    width: 800px;
+}
+.menubutton {
+    background-color: black;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-shadow: 2px 5px 20px black;
+}
+.menubutton a {
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.menubutton a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    
+}
+.menubutton input[type='text'] {
+    margin-left: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.searchbutton {
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+button:active {
+    background-color: rgb(225, 225, 225);
+}
+.div_box {
+    background-color: grey;
+    height: 100%;
+    padding: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.div_box_left {
+    background-color: rgb(232, 207, 16);
+    width: 370px;
+    height: 280px;
+    padding-top: 30px;
+    margin: 10px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 10px;
+
+}
+li {
+    margin: 30px;
+}
+.div_box_right {
+    background-color: rgba(255, 255, 255, 0.726);
+    margin: 14px;
+    width: 700px;
+    padding: 14px;
+    height: 280px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 10px;
+}
+.div_box_right td {
+    padding: 10px;
+}
+.div_box_right h1 {
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    margin: 0px;
+}
